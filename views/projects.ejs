@@ -1,13 +1,36 @@
 <%- include('partials/header') %>
-
 <main>
     <h1><%= title %></h1>
-    <section class="project-list">
-        <ul>
-            <li><strong>Proyecto A:</strong> Descripción detallada del proyecto de servicio.</li>
-            <li><strong>Proyecto B:</strong> Descripción detallada del proyecto de servicio.</li>
-        </ul>
-    </section>
+    <table class="project-table">
+        <thead>
+            <tr>
+                <th>Project Name</th>
+                <th>Category</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Urban Forest Restoration</td>
+                <td>Environmental</td>
+                <td>In Progress</td>
+            </tr>
+            <tr>
+                <td>Literacy Drive 2026</td>
+                <td>Educational</td>
+                <td>Completed</td>
+            </tr>
+            <tr>
+                <td>Community Soup Kitchen</td>
+                <td>Community Service</td>
+                <td>Active</td>
+            </tr>
+            <tr>
+                <td>Mobile Health Clinic</td>
+                <td>Health and Wellness</td>
+                <td>In Progress</td>
+            </tr>
+        </tbody>
+    </table>
 </main>
-
 <%- include('partials/footer') %>

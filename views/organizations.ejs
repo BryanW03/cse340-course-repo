@@ -1,18 +1,28 @@
 <%- include('partials/header') %>
-
 <main>
-    <h1><%= title %></h1>
-    <section class="content-section">
-        <p>Bienvenido a nuestra página de organizaciones. Aquí destacamos el impacto positivo de nuestros socios.</p>
-        
-        <div class="organization-container">
-            <img src="/images/organization-placeholder.jpg" alt="Imagen de la organización" class="org-image">
-            <article>
-                <h2>Nombre de la Organización</h2>
-                <p>Descripción breve sobre la misión y el trabajo de esta organización.</p>
-            </article>
-        </div>
+    <section class="hero-section">
+        <h1><%= title %></h1>
+        <p>We are proud to collaborate with the following organizations that share our commitment to global service and community development.</p>
     </section>
-</main>
 
+    <div class="card-grid">
+        <article class="card">
+            <img src="/images/org-one.jpg" alt="Green Earth Alliance">
+            <h3>Green Earth Alliance</h3>
+            <p>Focused on reforestation and sustainable urban planning across developing regions.</p>
+        </article>
+
+        <article class="card">
+            <img src="/images/org-two.jpg" alt="Global Education Fund">
+            <h3>Global Education Fund</h3>
+            <p>Providing digital infrastructure and educational resources to remote communities.</p>
+        </article>
+
+        <article class="card">
+            <img src="/images/org-three.jpg" alt="Health First Initiative">
+            <h3>Health First Initiative</h3>
+            <p>Advancing public health standards and providing medical training to local providers.</p>
+        </article>
+    </div>
+</main>
 <%- include('partials/footer') %>
