@@ -127,7 +127,7 @@ main { flex: 1; }
 
 
 .logo {
-    height: 60px;
+    height: 100px;
     width: auto;
     display: block;
     cursor: pointer;
