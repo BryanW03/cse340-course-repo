@@ -87,3 +87,40 @@ main { flex: 1; }
 .card {
     text-align: center;
 }
+
+
+
+
+.hero {
+    background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(44, 62, 80, 0.8)), url('/images/hero-bg.jpg'); /* Opcional: añade una imagen de fondo */
+    background-size: cover;
+    color: #fff;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.hero h1 { font-size: 3rem; margin-bottom: 1rem; }
+.hero p { font-size: 1.2rem; margin-bottom: 2rem; }
+
+.btn-primary {
+    background: #3498db;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn-primary:hover { background: #2980b9; }
+
+
+.info-section { text-align: center; padding: 3rem 0; }
+
+
+.features .card { text-align: center; }
+.features .card i {
+    font-size: 3rem;
+    color: #3498db;
+    margin-bottom: 1rem;
+}

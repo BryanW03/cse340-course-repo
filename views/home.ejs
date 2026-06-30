@@ -1,6 +1,36 @@
 <%- include('partials/header') %>
+
 <section class="hero">
-    <h2>Welcome to the <%= title %> Page</h2>
-    <p>Connecting volunteers with community needs.</p>
+    <div class="container hero-content">
+        <h1>Bienvenido a Service Network</h1>
+        <p>Conectamos corazones dispuestos a servir con las causas que más necesitan impacto.</p>
+        <a href="/projects" class="btn-primary">Explorar Proyectos</a>
+    </div>
 </section>
+
+<section class="container info-section">
+    <h2>Nuestra Misión</h2>
+    <p>Creemos en el poder de la acción comunitaria para transformar vidas. Facilitamos la conexión entre voluntarios dedicados y organizaciones que trabajan incansablemente por un mundo mejor.</p>
+</section>
+
+<section class="container features">
+    <div class="card-grid">
+        <article class="card">
+            <i class="fas fa-search-location"></i>
+            <h3>Encuentra Causas</h3>
+            <p>Descubre proyectos locales e internacionales que necesitan de tus habilidades.</p>
+        </article>
+        <article class="card">
+            <i class="fas fa-hands-helping"></i>
+            <h3>Únete a Organizaciones</h3>
+            <p>Colabora con entidades que comparten tus valores de servicio y compromiso social.</p>
+        </article>
+        <article class="card">
+            <i class="fas fa-chart-line"></i>
+            <h3>Mide tu Impacto</h3>
+            <p>Sigue el progreso de las iniciativas y observa cómo tu trabajo genera un cambio real.</p>
+        </article>
+    </div>
+</section>
+
 <%- include('partials/footer') %>
