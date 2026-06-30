@@ -1,27 +1,33 @@
 <%- include('partials/header') %>
-<main>
+<main class="container">
     <section class="hero-section">
         <h1><%= title %></h1>
-        <p>We are proud to collaborate with the following organizations that share our commitment to global service and community development.</p>
+        <p>Nos enorgullece colaborar con las siguientes organizaciones que comparten nuestro compromiso con el servicio global y el desarrollo comunitario.</p>
     </section>
 
     <div class="card-grid">
         <article class="card">
-            <img src="/images/org-one.jpg" alt="Green Earth Alliance">
+            <div class="icon-container">
+                <i class="fas fa-leaf"></i>
+            </div>
             <h3>Green Earth Alliance</h3>
-            <p>Focused on reforestation and sustainable urban planning across developing regions.</p>
+            <p>Enfocados en la reforestación y planificación urbana sostenible en regiones en desarrollo.</p>
         </article>
 
         <article class="card">
-            <img src="/images/org-two.jpg" alt="Global Education Fund">
+            <div class="icon-container">
+                <i class="fas fa-graduation-cap"></i>
+            </div>
             <h3>Global Education Fund</h3>
-            <p>Providing digital infrastructure and educational resources to remote communities.</p>
+            <p>Proporcionando infraestructura digital y recursos educativos a comunidades remotas.</p>
         </article>
 
         <article class="card">
-            <img src="/images/org-three.jpg" alt="Health First Initiative">
+            <div class="icon-container">
+                <i class="fas fa-stethoscope"></i>
+            </div>
             <h3>Health First Initiative</h3>
-            <p>Advancing public health standards and providing medical training to local providers.</p>
+            <p>Promoviendo estándares de salud pública y brindando capacitación médica a proveedores locales.</p>
         </article>
     </div>
 </main>
