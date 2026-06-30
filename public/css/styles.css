@@ -124,3 +124,11 @@ main { flex: 1; }
     color: #3498db;
     margin-bottom: 1rem;
 }
+
+
+.logo {
+    height: 60px;
+    width: auto;
+    display: block;
+    cursor: pointer;
+}
